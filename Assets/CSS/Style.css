@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-body {
+#index {
     padding: 10px 10px;
     font-family: 'Barlow', sans-serif;
     background-image: url("../Img/heroBg.png");
@@ -15,7 +15,16 @@ body {
     background-position: top;
     height: 100px;
 }
+#headBg{
+    font-family: 'Barlow', sans-serif;
+    background-image: url("../Img/allHrader1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: fixed;
 
+   
+}
 #logo {
     width: 15rem;
     margin-left: 2rem;
@@ -217,75 +226,17 @@ nav a {
     align-items: center;
    }
 
-  .courseInfo{
-  padding-top: 40rem;
-  display: flex;
-  /* align-items: center; */
-  }
-  
-  /* .course-image {
-    margin-right: 20px;
-  } */
-  
-  #courseimage {
-    width: 30%;
-    height: auto;
-    margin-right: 2rem;
-
-  }
-  
-  .course-details {
-    flex: 1 1 auto;
-  }
-  
-  .category {
-    display: inline-block;
-    margin-bottom: 1px;
-    color: #184E77;
-    text-decoration: none;
-  }
-  
-  .course-title {
-    margin-top: 3rem;
-    margin-left: 15rem;
-    color: #184E77;
-
-  }
-  
-  .course-description {
-    margin-top: 2rem;
-    margin-bottom: 10px;
-    color: #184E77;
-  }
-  
-  .review {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    color: #666666;
-  }
-  
-  .review-stars {
-    margin-top: 3rem;
-    width: 2rem;
-    height: auto;
-    margin-right: 5px;
-  }
-  
-  .review-count {
-    font-size: 14px;
-    margin-top: 3.5rem;
-    margin-left: 3;
-  }
-  
-  .apply-button {
-    background-color: #76c893;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 5rem;
-    margin-left: 25rem;
-  }
-
+   #courseimage{
+    width: 80%;
+    margin-left: 2rem;
+    
+   }
+   .course-details img{
+    width: 3%;
+   }
+   .course-details p {
+    max-width: 70%;
+   }
+   .courseInfo{
+    padding-top: 15rem;
+   }
